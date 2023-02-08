@@ -5,11 +5,11 @@
     <img src="/assets/HongKong.jpeg" alt="Background photo">
   </div>
   <div class="profile-image">
-    <img src="/assets/AmberFoto.jpeg" alt="Amber">
+    <img src="<%= member.avatar %>" alt="Avatar van <%= member.name %> <%= member.surname %>">
   </div>
   
   <div class="card-content">
-    <h1>Amber v/d Reijden <%= member.name %><br><span>Frontend Developer in training</span></h1>
+    <h1><%= member.name %> <%= member.surname %><br><span>Frontend Developer in training</span></h1>
     <hr>
     <h2>About me</h2>
     <p>
