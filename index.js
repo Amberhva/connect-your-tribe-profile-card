@@ -1,5 +1,13 @@
 // Importeer express uit de node_modules map
-import express from 'express'
+import express, { response } from 'express'
+
+// Maak een url aan van je whoisfdnd
+const url = 'https://whois.fdnd.nl/api/v1/member/amber-van-der-reijden'
+
+// Fetch de data van de url
+const data = await fetch(url).then((response) => response.json())
+
+// console.log(data.member)
 
 // Maak een nieuwe express app aan
 const app = express()
