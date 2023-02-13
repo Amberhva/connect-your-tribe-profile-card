@@ -1,104 +1,127 @@
-body {
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	background: linear-gradient(45deg, #FBEAEB, #2c49b6);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-  
-  .card {
-	font-family: 'Poppins', sans-serif;
-	width: 450px;
-	overflow: hidden;
-	background: #fff;
-	border-radius: 20px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	display: flex;
-	flex-direction: column;
-  }
-  
-  .background-image img {
-	width: 100%;
-	height: 160px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	object-fit: cover;
-  }
-  
-  .profile-image img {
-	z-index: 1;
-	width: 140px;
-	height: 140px;
-	position: relative;
-	margin-top: -120px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 100px;
-	border: 6px solid #fff;
-	transition-duration: 0.4s;
-	transition-property: transform;
-  }
-  
-  .profile-image img:hover {
-	transform: scale(1.1);
-  }
-  
-  .card-content h1 {
-	font-size: 20px;
-	text-align: center;
-	margin: 0.5;
-	margin-bottom: 15px;
-  }
-  
-  .card-content span {
-	font-size: 12px;
-	font-weight: 600;
-	opacity: 0.5;
-  }
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/assets/tokyo-4.jpg);
+}
 
-  .card-content hr {
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
+.wrapper,
+.wrapper .img-area,
+.social-icons a {
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
 
-	height: 1.5px;
-	border-width: 0;
-	color: gray;
-	background-color: gray
-  }
+.wrapper {
+    position: relative;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-  .card-content h2 {
-	font-size: 12px;
-	text-align: justify;
-	/*margin-top: 15px;
-	padding: 0 20px 0px 20px;*/
-	margin: 20px;
-  }
+.wrapper .img-area {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-area .inner-area {
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    border-radius: 50%;
+}
+.inner-area img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wrapper .name {
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    margin: 10px 0 5px 0;
+}
+.wrapper .sub-title {
+    color: #b6b7bd;
+    font-weight: 400;
+    font-size: 18px;
+}
 
-  .card-content p {
-	font-size: 11px;
-	padding: 0 20px 5px 20px;
-  }
-  
-  .icons {
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 15px;
-  }
-  
-  .icons a {
-	text-decoration: none;
-	font-size: 20px;
-	color: #2c49b6;
-	padding: 0 14px;
-	transition-duration: 0.4s;
-	transition-property: transform;
-  }
-  
-  .icons a:hover {
-	color: #000;
-	transform: scale(1.5);
-  }
+.about {
+    margin: 1em;
+}
+
+.wrapper .about-me {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
+.wrapper .social-icons {
+    margin: 0.5em 0 1em 0;
+}
+
+.social-icons a {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.social-icons a:hover::before,
+.wrapper .icon:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+.social-icons a i {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 35px;
+}
+.social-icons a:nth-last-child(1) i {
+    color: #015887;
+}
+.social-icons a:nth-last-child(2) i {
+    color: #d40000;
+}
+.social-icons a:nth-last-child(3) i {
+    color: #1b1a1a;
+}
+.social-icons a:nth-last-child(4) i {
+    color: #ea00ff;
+}
