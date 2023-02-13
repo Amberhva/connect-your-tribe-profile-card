@@ -79,6 +79,14 @@ body {
     text-align: center;
 }
 
+.content {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1em;
+    list-style: none;
+    padding: 1em;
+}
+
 .wrapper .social-icons {
     margin: 0.5em 0 1em 0;
 }
