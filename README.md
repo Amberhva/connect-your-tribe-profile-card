@@ -5,7 +5,7 @@ Redesign je visitekaartje met Node en data uit de whois.fdnd.nl API.
 💬 Beschrijving <br>
 🔖 Gebruik van de website<br>
 📸 Poster visual<br>
-🌐 Github Pages<br>
+🌐 Cyclic.sh <br>
 📑 Checklist gelukt/niet gelukt <br>
 ♦️ Licentie
 
@@ -13,18 +13,24 @@ Redesign je visitekaartje met Node en data uit de whois.fdnd.nl API.
 Elke frontender bij FDND stelt zichzelf binnen de tribe voor door middel van een visitekaartje. De data voor het visitekaartje staat in een database die te bereiken is via de API op whois.fdnd.nl. Met deze data ga je jouw visitekaartje redesignen. 
 
 ## 🔖 Gebruik van de website
-1. 
+1. Download de code via de zip
+2. Pak het bestand uit
+3. Open het uitgepakte bestand met Visual Studio Code
+4. Open de terminal
+5. Typ in: `npm install` en installeer de benodigde packages
+6. Nadat de installatie klaar is, typ nogmaals in de terminal: `npm start`
+7. Je krijgt helemaal onderaan een link te zien wat als volgt gaat: `http://localhost:8000`
+8. Klik op de link en bekijk het project
 
  ## 📸 Poster visual
  ### :phone: Mobiel
-![screenshot-mobile](https://user-images.githubusercontent.com/112861033/214719254-58d754f9-7790-486c-9420-bc19446c1a5c.png)
+![image](https://user-images.githubusercontent.com/112861033/220084738-2608edab-68f5-4ad7-a00b-260e0a72e6bb.png)
 
- ### :iphone: Tablet
-![screenshot-tablet](https://user-images.githubusercontent.com/112861033/214719597-f810befb-4ff1-41db-a0cc-46cf75bd8cf8.png)
+ ### 🖥️ Desktop
+![image](https://user-images.githubusercontent.com/112861033/220084812-a6cf1e1f-1f0b-4301-9aa3-58163fbae892.png)
 
-## 🌐 Github Pages 
-https://amberhva.github.io/the-valley-nike-case-study/
-
+## 🌐 Cyclic.sh 
+https://determined-pear-octopus.cyclic.app/
 
 ## 📑 Checklist gelukt/niet gelukt 
 ✅ Wat er wel is gelukt:
@@ -41,8 +47,12 @@ https://amberhva.github.io/the-valley-nike-case-study/
 * HTML
 * CSS
 * JS
-* Node 
+* NODE 
 * EJS
+* EXPRESS
+* JSON
+* API
+* REST
 * Visual studio Code
 
 ## Licentie
