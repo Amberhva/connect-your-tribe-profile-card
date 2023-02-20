@@ -1,30 +1,49 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Connect-your-tribe-profile-card
+Redesign je visitekaartje met Node en data uit de whois.fdnd.nl API. 
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+## 📋 Inhoudsopgave 
+💬 Beschrijving <br>
+🔖 Gebruik van de website<br>
+📸 Poster visual<br>
+🌐 Github Pages<br>
+📑 Checklist gelukt/niet gelukt <br>
+♦️ Licentie
 
-## Inhoudsopgave
+## 💬 Beschrijving
+Elke frontender bij FDND stelt zichzelf binnen de tribe voor door middel van een visitekaartje. De data voor het visitekaartje staat in een database die te bereiken is via de API op whois.fdnd.nl. Met deze data ga je jouw visitekaartje redesignen. 
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## 🔖 Gebruik van de website
+1. 
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+ ## 📸 Poster visual
+ ### :phone: Mobiel
+![screenshot-mobile](https://user-images.githubusercontent.com/112861033/214719254-58d754f9-7790-486c-9420-bc19446c1a5c.png)
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+ ### :iphone: Tablet
+![screenshot-tablet](https://user-images.githubusercontent.com/112861033/214719597-f810befb-4ff1-41db-a0cc-46cf75bd8cf8.png)
 
-## Installatie
+## 🌐 Github Pages 
+https://amberhva.github.io/the-valley-nike-case-study/
 
-## Gebruik
 
-## Bronnen
+## 📑 Checklist gelukt/niet gelukt 
+✅ Wat er wel is gelukt:
+- [x] Visitekaartje server sided maken met Node
+- [x] Gegevens gebruiken uit de REST API op whois.fdnd.nl
+- [x] Mijn kaartje gepublished via Cyclic.sh
+- [x] Visitekaartje een re-design gegeven
+
+❌ Wat er niet is gelukt :
+- [ ] Een website bouwen
+- [ ] Hele toffe animaties maken
+
+## :100: Kenmerken
+* HTML
+* CSS
+* JS
+* Node 
+* EJS
+* Visual studio Code
 
 ## Licentie
 
